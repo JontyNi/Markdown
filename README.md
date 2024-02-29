@@ -418,19 +418,19 @@ next page is *[bing](www.bing.com)*
 
 1. 要添加表，请使用三个或多个连字符（---）创建每列的标题，并使用管道（|）分隔每列。您可以选择在表的任一端添加管道。
 
-Markdown | Less | Pretty
---- | --- | ---
-*Still* | `renders` | **nicely**
-
-
+name | id | year 
+--- | ---| ---- 
+`zhang` | 1 | 23  
+li | 2 | 22 
 
 2. 对齐
-
  > 题行中的连字符的左侧，右侧或两侧添加冒号（:），将列中的文本对齐到左侧，右侧或中心
 
-Markdown | Less | Pretty
-:--- | :---: | ---:
-*Still* | `renders` | **nicely**
+name | id | year 
+:--- | :---: | ---: 
+zhang | 1 | 23  
+**li** | 2 | 22 
+
 
 ```
 
@@ -444,7 +444,7 @@ Markdown | Less | Pretty
 
 >  name | id  | year 
 >  ----- | ---- | ---- 
->  zhang | 1  | 23  
+>  `zhang` | 1  | 23  
 >  li  | 2  | 22  
 
 >
@@ -456,7 +456,7 @@ Markdown | Less | Pretty
 >  name | id | year 
 >  :---- | :--: | ---:
 >   zhang | 1  |  23 
->   li  | 2  |  22 
+>   **li**  | 2  |  22 
 
 
 
