@@ -631,12 +631,6 @@ zhang | 1 | 23
 
 
 **效果如下**
-
-> 语法：对照表单词
 > 鸡飞蛋打
-
 > :chicken: :airplane: :egg: :punch:
-
-> <br>
-
 > [git符号对照表](https://gist.github.com/rxaviers/7360908 "点击直达")
